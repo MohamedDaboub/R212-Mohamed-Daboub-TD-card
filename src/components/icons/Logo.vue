@@ -1,4 +1,5 @@
 <template>
+<div class="flex  my-4 mx-6     xl:my-7 xl:mx-12  ">
 <svg
   width="32"
   height="32"
@@ -24,4 +25,6 @@
     stroke-linejoin="round"
   ></path>
 </svg>
+<p>Estatery</p>
+</div>
 </template>

@@ -1,19 +1,18 @@
 <template>
 <body class=" bg-indigo-50">
 
-  <nav class="flex gap-4">
-    <RouterLink to="/AccueilView" class="text-blue-600 text-lg">Accueil</RouterLink>
-    <RouterLink to="/AboutView" class="text-blue-600 text-lg">About</RouterLink>
-    <RouterLink to="/Buy" class="text-blue-600 text-lg">Buy, Rent and Sell</RouterLink>
-  </nav>
+  <navi class=" bg-white"></navi>
+
  <RouterView/>
 </body>
   
 
 </template>
 <script>
+import navi from "../src/components/nav.vue"
 export default {
   name: "App",
-  components: {},
+  components: {navi},
 };
 </script>
+

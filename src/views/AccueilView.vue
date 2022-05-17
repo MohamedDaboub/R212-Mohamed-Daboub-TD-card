@@ -1,6 +1,6 @@
 <template>
   <main>
-  <navi class="pt-1"></navi>
+  
   <div class=" my-6 mx-6">
     <barplus></barplus>
     <Sear></Sear>
