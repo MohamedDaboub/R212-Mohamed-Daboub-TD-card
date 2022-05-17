@@ -16,7 +16,7 @@
                     <div><size class=" inline-block align-top" /> {{size}}</div>
                 </div>
                 <div class="w-12 grid place-items-center absolute top-7 right-5 h-12 border-2 border-indigo-100 rounded-full">
-                    <heart :class="{ 'fill-red-700': favori }" />
+                    <heart :class="{ 'fill-indigo-700': favori }" />
                 </div>
             </div>
         </figcaption>
