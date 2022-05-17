@@ -5,9 +5,8 @@
 
 <footer class="bg-white pt-10 sm:mt-10">
     <div>
-         <div class=" relative flex  mt-12 ml-6" >
+         <div class="  flex  mt-12 ml-6" >
             <logo></logo>
-            <p class=" bottom-0 mt-1  text-xl font-bold text-left text-gray-900">Estatery</p>
             </div>
     </div>
         <div class="max-w-6xl m-auto text-gray-900 flex flex-wrap justify-left">

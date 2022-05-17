@@ -25,6 +25,6 @@
     stroke-linejoin="round"
   ></path>
 </svg>
-<p>Estatery</p>
+<p class="text-gray-900 text-xl font-bold mt-1">Estatery</p>
 </div>
 </template>
