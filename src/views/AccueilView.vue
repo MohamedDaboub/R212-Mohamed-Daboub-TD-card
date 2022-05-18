@@ -1,7 +1,7 @@
 <template>
   <main>
   
-  <div class=" my-6 mx-6">
+  <div class=" py-6 mx-6">
     <barplus></barplus>
     <Sear></Sear>
   </div>

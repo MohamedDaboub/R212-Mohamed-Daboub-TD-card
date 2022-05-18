@@ -1,5 +1,5 @@
 <template>
-   <header>
+   <header class="border-indigo-100 border-b-2">
     <div class="flex gap-12">
     <logo></logo>
     <nav class="flex w-full justify-between bg-white/40 p-4 text-gray-900 items-center">
@@ -17,13 +17,12 @@
         </div>
       </div>
             <div class="hidden text-sm xl:flex">
-        <RouterLink class="ml-2 rounded border border-indigo-200 bg-white py-4 px-6 font-semibold leading-none text-indigo-500 hover:border-transparent hover:bg-indigo-900" to="/auth/signin">Login</RouterLink>
-        <RouterLink class="ml-2 rounded border border-indigo-600 bg-indigo-500 py-4 px-6 font-semibold leading-none text-white  hover:border-transparent hover:bg-zinc-900" to="/auth/signup">Sign up</RouterLink>
+        <RouterLink class="mx-4 rounded border border-indigo-200 bg-white py-4 px-6 font-semibold leading-none text-indigo-500 hover:border-transparent hover:bg-indigo-900" to="signin">Login</RouterLink>
+        <RouterLink class="mx-4 rounded border border-indigo-600 bg-indigo-500 py-4 px-6 font-semibold leading-none text-white  hover:border-transparent hover:bg-zinc-900" to="signup">Sign up</RouterLink>
       </div>
       <Navbar class="sm:flex xl:hidden "/>
     </nav> 
     </div>
-    <hr class="bg-indigo-100 border-indigo-100 border-2"/>
   </header>
 
 </template>

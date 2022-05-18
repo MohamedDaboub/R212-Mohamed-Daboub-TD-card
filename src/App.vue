@@ -1,7 +1,6 @@
 <template>
-<body class=" bg-indigo-25 2xl:mx-32">
-
-  <navi ></navi>
+ <navi ></navi>
+<body class=" bg-indigo-25 2xl:px-32">
 
  <RouterView/>
 </body>
