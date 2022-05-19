@@ -4,15 +4,17 @@
     <logo></logo>
     <nav class="flex w-full justify-between bg-white/40 p-4 text-gray-900 items-center">
       <div class="flex gap-4 md:w-auto md:items-center">
-        <div class="hidden gap-12 xl:flex ">
+        <div class="hidden gap-12 xl:flex  ">
             <RouterLink to="/Rent" class="text-gray-900 text-base font-medium">Rent</RouterLink>
             <RouterLink to="/Buy" class="text-gray-900 text-base font-medium">Buy</RouterLink>
             <RouterLink to="/Sell" class="text-gray-900 text-base font-medium">Sell</RouterLink>
-            <div>
+            <div class="flex gap-2 items-center">
             <RouterLink to="/Manage" class="text-gray-900 text-base font-medium">Manage Property</RouterLink>
+            <fleche></fleche>
             </div>
-            <div>
+            <div class="flex  gap-2 items-center">
             <RouterLink to="/Resources" class="text-gray-900 text-base font-medium">Resources</RouterLink>
+            <fleche></fleche>
             </div>
         </div>
       </div>
@@ -23,14 +25,15 @@
       <Navbar class="sm:flex xl:hidden "/>
     </nav> 
     </div>
+    
   </header>
 
 </template>
 <script>
 import logo from './icons/Logo.vue'
 import Navbar from './icons/Navbar.vue'
-
+import fleche from './icons/Flechebas.vue'
 export default {
-    components:{logo,Navbar}
+    components:{logo,Navbar,fleche}
 }
 </script> 

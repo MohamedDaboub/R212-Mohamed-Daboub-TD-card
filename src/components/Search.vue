@@ -1,7 +1,9 @@
 <template>
-    <div class="flex justify-between bg-white p-2 my-8 rounded-lg  lg:hidden">
-        <p class="text-base font-medium mt-4 text-gray-500">Search location</p>
-        <searchee class=" bg-indigo-500  "></searchee>
+    <div >
+        <label class="flex justify-between bg-white p-2 my-8 rounded-lg  lg:hidden">
+                <input type="text" class="mt-1 block w-full rounded-md  border-transparent  focus:border-transparent placeholder:text-base placeholder:text-gray-500" placeholder="Search location">
+                <searchee class=" bg-indigo-500  "></searchee>
+              </label>
     </div>
     <div class="hidden lg:grid lg:grid-cols-4  bg-white px-8 py-6 rounded-lg   m-4  ">
         <div class=" border-r  ">
