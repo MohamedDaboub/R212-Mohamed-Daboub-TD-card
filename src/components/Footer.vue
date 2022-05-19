@@ -127,11 +127,11 @@
     <div class="pt-2">
         <div class="flex pb-5 px-3 m-auto pt-5 
             border-t border-indigo-100 text-gray-900 text-sm 
-            flex-col md:flex-row max-w-6xl">
+            flex-col md:flex-row max-w-6xl lg:flex lg:justify-between sm:justify-center ">
             <div class="mt-2 text-center">
                 ©2021 Estatery. All rights reserved
             </div>
-            <div class="mt-6 flex-row flex justify-center">
+            <div class="mt-6 justify-center ">
                 <a href="#" class="w-6 mx-1">
                     <i class="uil uil-facebook-f"></i>
                 </a>
